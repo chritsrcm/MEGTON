@@ -9,7 +9,7 @@ const Input = {
       if (typeof Sound !== "undefined") Sound.unlock();
       Input.keys[e.code] = true;
       // Previne scroll com setas/space
-      if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter","ShiftLeft","KeyJ"].includes(e.code)) {
+      if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter","ShiftLeft","Keyq"].includes(e.code)) {
         e.preventDefault();
       }
     });
